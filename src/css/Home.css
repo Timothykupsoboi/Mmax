@@ -1,0 +1,93 @@
+/* ── Home Page ──────────────────────────────────────── */
+.home {
+  background-color: var(--bg-light);
+}
+
+.search-results-section {
+  padding: 2rem;
+}
+
+.search-results-section h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: var(--text-dark);
+}
+.search-clear-inline {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 4px 12px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.2s;
+}
+
+.search-clear-inline:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.error-message {
+  background: #fff0f0;
+  color: #c0392b;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #c0392b;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+/* ── Top Sections Tabs ─────────────────────────────────── */
+.top-sections-tabs {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1.5rem 2rem 0.5rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.top-sections-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.section-tab-btn {
+  background: transparent;
+  border: 1.5px solid #ff7200;
+  border-radius: 30px;
+  padding: 0.4rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ff7200;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.section-tab-btn.active {
+  background: #ff7200;
+  color: white;
+}
+
+.section-tab-btn:hover:not(.active) {
+  background: rgba(255, 114, 0, 0.1);
+}
+
+.section-content {
+  margin-top: 0.5rem;
+}
