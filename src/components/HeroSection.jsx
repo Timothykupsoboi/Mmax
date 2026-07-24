@@ -204,10 +204,10 @@ function HeroSection() {
       <div className="hero-vignette-bottom"></div>
 
       <div className={`hero-content ${fade ? "fade-out" : "fade-in"}`}>
-        {/* MMAX Series logo */}
+        {/* TIMTECH Series logo */}
         <div className="hero-series-type">
-          <span className="brand-logo-small">m</span>
-          <span className="series-text">mmax.stream</span>
+          <span className="brand-logo-small">t</span>
+          <span className="series-text">timtech.stream</span>
         </div>
 
         <h1 className="hero-title">

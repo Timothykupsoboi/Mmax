@@ -130,8 +130,8 @@ function AnimeHeroSection() {
       <div className="hero-vignette-bottom"></div>
       <div className={`hero-content ${fade ? "fade-out" : "fade-in"}`}>
         <div className="hero-series-type">
-          <span className="brand-logo-small">m</span>
-          <span className="series-text">mmax.anime</span>
+          <span className="brand-logo-small">t</span>
+          <span className="series-text">timtech.anime</span>
         </div>
         <h1 className="hero-title">{currentMovie.name || currentMovie.title}</h1>
         <p className="hero-synopsis">{currentMovie.overview?.substring(0, 160)}...</p>

@@ -358,7 +358,7 @@ function MovieModal({ movie, onClose }) {
                           </svg>
                           <div className="loader-percentage">{loadingPercentage}%</div>
                         </div>
-                        <div className="loader-status-text">mmax.steam...</div>
+                        <div className="loader-status-text">timtech.stream...</div>
                       </div>
                     </div>
                   )}

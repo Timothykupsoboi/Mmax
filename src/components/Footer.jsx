@@ -9,7 +9,7 @@ function Footer() {
         {/* Logo block */}
         <div className="footer-logo-block">
           <div>
-            <div className="footer-logo-text">MMax◆<br />Stream</div>
+            <div className="footer-logo-text">TimTech◆<br />Stream</div>
             <span className="footer-logo-pill"></span>
           </div>
           <button className="footer-hi-btn">Hi {user.name}!</button>

@@ -1,6 +1,6 @@
-/* ================================================================
-   MMAX.STREAM PREMIUM NAVBAR — Next-Gen Cinematic Design
-   ================================================================ */
+/* ── NAVBAR STYLES ─────────────────────────────────────────────────────────────
+   TIMTECH.STREAM PREMIUM NAVBAR — Next-Gen Cinematic Design
+   ──────────────────────────────────────────────────────────────────────────── */
 
 :root {
   --nav-height: var(--navbar-height);
@@ -85,13 +85,15 @@
   transition: transform 0.3s ease;
 }
 
-.mmax-logo-combined {
+.mmax-logo-combined,
+.timtech-logo-combined {
   display: flex;
   align-items: center;
   gap: 2px;
 }
 
-.logo-m {
+.logo-m,
+.logo-t {
   font-size: 1.8rem;
   font-weight: 900;
   background: linear-gradient(135deg, #ff7200, #ff9d4d);
@@ -110,7 +112,8 @@
 }
 
 @media (min-width: 1025px) {
-  .logo-m { font-size: 2.1rem; }
+  .logo-m,
+  .logo-t { font-size: 2.1rem; }
   .logo-text { font-size: 1.3rem; }
 }
 
