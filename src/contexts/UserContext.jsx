@@ -6,12 +6,12 @@ export const useUser = () => useContext(UserContext);
 
 export const UserProvider = ({ children }) => {
   const [user, setUser] = useState(() => {
-    const saved = localStorage.getItem("timtech_user");
+    const saved = localStorage.getItem("timsarahtech_user");
     return saved ? JSON.parse(saved) : { name: "Guest", isAuthenticated: false };
   });
 
   useEffect(() => {
-    localStorage.setItem("timtech_user", JSON.stringify(user));
+    localStorage.setItem("timsarahtech_user", JSON.stringify(user));
   }, [user]);
 
   const login = (name) => {

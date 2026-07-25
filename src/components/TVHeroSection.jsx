@@ -153,7 +153,7 @@ function TVHeroSection() {
       <div className={`hero-content ${fade ? "fade-out" : "fade-in"}`}>
         <div className="hero-series-type">
           <span className="brand-logo-small">t</span>
-          <span className="series-text">timtech.stream series</span>
+          <span className="series-text">timsarahtech.stream series</span>
         </div>
 
         <h1 className="hero-title">{currentShow.name || currentShow.original_name}</h1>

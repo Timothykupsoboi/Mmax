@@ -1,4 +1,4 @@
-const PROGRESS_KEY = "timtech_stream_progress";
+const PROGRESS_KEY = "timsarahtech_stream_progress";
 
 /**
  * Structure of the progress object:

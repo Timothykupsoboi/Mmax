@@ -105,9 +105,9 @@ function NavBar({ onSearch, isScrolled, isAtTop }) {
       <nav className={`navbar ${isAtTop ? "is-at-top" : !isScrolled ? "is-liquid" : "is-scrolled"} ${mobileMenuOpen ? "is-menu-open" : ""} ${searchExpanding ? "search-animating" : ""}`}>
         {/* ── Logo ── */}
         <Link to="/" className="navbar-logo" onClick={handleLinkClick}>
-          <span className="timtech-logo-combined">
+          <span className="timsarahtech-logo-combined">
             <span className="logo-t">t</span>
-            <span className="logo-text">imtech.stream</span>
+            <span className="logo-text">imsarahtech.stream</span>
           </span>
         </Link>
 
@@ -161,9 +161,9 @@ function NavBar({ onSearch, isScrolled, isAtTop }) {
         <div className={`mobile-nav-overlay ${mobileMenuOpen ? "is-visible" : ""}`}>
           <div className="mobile-nav-header">
             <Link to="/" className="navbar-logo" onClick={handleLinkClick}>
-              <span className="timtech-logo-combined">
+              <span className="timsarahtech-logo-combined">
                 <span className="logo-t">t</span>
-                <span className="logo-text">imtech.stream</span>
+                <span className="logo-text">imsarahtech.stream</span>
               </span>
             </Link>
             <button className="mobile-menu-close" onClick={() => setMobileMenuOpen(false)}>
@@ -193,7 +193,7 @@ function NavBar({ onSearch, isScrolled, isAtTop }) {
             </div>
             
             <div className="mobile-nav-footer">
-              <p>© 2026 TimTech.Stream • Premium Cinema</p>
+              <p>© 2026 TimSarahTech.Stream • Premium Cinema</p>
             </div>
           </div>
         </div>
